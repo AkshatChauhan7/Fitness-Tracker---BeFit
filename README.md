@@ -20,7 +20,7 @@
 ---
 
 ## 📁 Project Structure
-
+```bash
 FitnessTrackerApp/
 │
 ├── src/
@@ -34,7 +34,7 @@ FitnessTrackerApp/
 ├── .gitignore                         # Git ignored files (e.g., IDE config, logs)
 ├── README.md                          # Project documentation (you are here!)
 └── LICENSE                            # (Optional) License file if you choose to add one
-
+```
 
 ---
 
