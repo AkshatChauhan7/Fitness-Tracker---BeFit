@@ -23,13 +23,18 @@
 
 FitnessTrackerApp/
 │
-├── Main.java # Launches the application
-├── Register.java # Handles user registration UI & logic
-├── SecondWindow.java # Main dashboard after login
-├── MySQLDatabaseConnection.java # All database-related methods (login, register, log data, fetch charts)
-├── FitnessSQL.sql # SQL script to create and initialize the database
-├── /resources/ # (If used) FXML/CSS/Image files
-└── README.md # This file
+├── src/
+│   └── FitnessTracker/
+│       ├── Main.java                  # Entry point that launches the JavaFX app
+│       ├── Register.java              # Registration window for new users
+│       ├── SecondWindow.java          # Main dashboard after login
+│       ├── MySQLDatabaseConnection.java  # Handles all MySQL interactions
+│
+├── FitnessSQL.sql                     # SQL script to create necessary database & tables
+├── .gitignore                         # Git ignored files (e.g., IDE config, logs)
+├── README.md                          # Project documentation (you are here!)
+└── LICENSE                            # (Optional) License file if you choose to add one
+
 
 ---
 
