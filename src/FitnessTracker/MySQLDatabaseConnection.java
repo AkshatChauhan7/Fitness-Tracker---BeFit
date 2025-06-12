@@ -19,7 +19,7 @@ public class MySQLDatabaseConnection {
 
             String url = "jdbc:mysql://localhost:3306/fitness_tracker";
             String username = "root";
-            String password = "Your_Password";
+            String password = "070214";
 
             connection = DriverManager.getConnection(url, username, password);
             System.out.println("Connection successful!");
